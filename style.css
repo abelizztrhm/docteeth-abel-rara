@@ -716,3 +716,48 @@ textarea:focus {
 
     margin-top: 15px;
 }
+
+.testimonial-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.testimonial {
+    background: white;
+
+    border: 1px solid #e2eeee;
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    transition: 0.3s;
+}
+
+.testimonial:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 10px 30px
+        rgba(0,0,0,0.07);
+}
+
+.stars {
+    color: #f5ad20;
+
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    color: #657d82;
+}
+
+.testimonial strong {
+    display: block;
+
+    margin-top: 18px;
+}
