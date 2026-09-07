@@ -537,3 +537,69 @@ section {
 
     font-size: 20px;
 }
+
+.doctors {
+    background: #effaf9;
+}
+
+.doctor-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.doctor-card {
+    background: white;
+
+    border-radius: 22px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    border: 1px solid #deeeec;
+
+    transition: 0.3s;
+}
+
+.doctor-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 15px 30px
+        rgba(7,155,145,0.1);
+}
+
+.doctor-avatar {
+    width: 140px;
+    height: 140px;
+
+    margin: auto;
+    margin-bottom: 20px;
+
+    border-radius: 50%;
+
+    background: #dff8f5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 65px;
+}
+
+.rating {
+    color: #f5ad20;
+
+    margin: 8px 0;
+}
+
+.doctor-card p {
+    color: #718489;
+
+    font-size: 14px;
+}
+
