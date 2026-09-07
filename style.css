@@ -473,3 +473,67 @@ section {
 
     font-size: 15px;
 }
+
+.about {
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap: 60px;
+
+    align-items: center;
+}
+
+.about-image {
+    height: 420px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 30px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #c8f3ee,
+            #eaffff
+        );
+
+    font-size: 150px;
+}
+
+.about-text h2 {
+    font-size: 42px;
+
+    line-height: 1.15;
+
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    color: #718489;
+
+    margin-bottom: 20px;
+}
+
+.features {
+    list-style: none;
+}
+
+.features li {
+    margin-bottom: 12px;
+
+    font-weight: bold;
+}
+
+.features li::before {
+    content: "✓";
+
+    color: #079b91;
+
+    margin-right: 10px;
+
+    font-size: 20px;
+}
